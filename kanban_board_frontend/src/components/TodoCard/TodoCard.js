@@ -73,7 +73,7 @@ function TodoCard({ status }) {
 
 
 
-            <div ref={drop} className="todocard">
+            <div ref={drop} className="bg-fuchsia-100 h-[11rem] flex overflow-x-scroll w-[80%]">
                 {todoTasks.map((task) => {
                     return <ShowCard key={task._id} updateTask={updateTask} title={task.title} description={task.description} task={task} />
                 })}

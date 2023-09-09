@@ -72,7 +72,7 @@ function DoingCard({ status }) {
 
 
 
-            <div ref={drop} className="doingcard">
+            <div ref={drop} className="bg-amber-100 h-[11rem] flex overflow-x-scroll w-[80%]">
                 {doingTasks.map((task) => {
                     return <ShowCard key={task._id} updateTask={updateTask} title={task.title} description={task.description} task={task} />
                 })}
