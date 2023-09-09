@@ -8,11 +8,10 @@ import "./cards.css"
 export default function Cards() {
   return (
    <>
-    <div className="cards">
+    <div className="cards flex xsm:flex-col xsm:ml-[1rem]">
         <Todo />
         <Doing />
-        <Done />
-        
+        <Done />      
     </div>
    </>
   )

@@ -71,7 +71,7 @@ function DoneCard({ status }) {
 
 
 
-            <div ref={drop} className="donecard">
+            <div ref={drop} className="bg-lime-100 h-[11rem] flex overflow-x-scroll w-[80%]">
                 {doneTasks.map((task) => {
                     return <ShowCard key={task._id} updateTask={updateTask} title={task.title} description={task.description} task={task} />
                 })}
