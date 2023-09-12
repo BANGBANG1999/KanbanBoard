@@ -19,9 +19,9 @@ export default function Doing() {
     return (
         <>
             
-            <div className="done">
-                <p id='done'>Done</p>
-                <i className="fa-solid fa-plus plus" data-bs-toggle="modal" data-bs-target="#exampleModal-done"></i>
+            <div className="bg-lime-500 flex w-[80%] p-[9px] mt-[1rem] justify-center items-center gap-2">
+                <p id='done' className="text-white font-bold">Done</p>
+                <i className="fa-solid fa-plus plus text-white font-bold" data-bs-toggle="modal" data-bs-target="#exampleModal-done"></i>
             </div>
             
             <TaskForm key="key3" status="done" placeholder="Give title for done" placeholder_two="Give description for done"/>

@@ -6,6 +6,7 @@ import Cards from "./components/Cards/Cards";
 import Navbar from "./components/Navbar/Navbar";
 import Topbar from "./components/Topbar/Topbar";
 import TaskState from "./context/tasks/TaskState"
+import MainLayout from "./layout";
 
 
 function App() {
@@ -16,8 +17,7 @@ function App() {
     <DndProvider backend={HTML5Backend}>
         {/* <Navbar /> */}
         <Topbar />
-        <Cards />
-        <AllCards />
+        <MainLayout/>
       </DndProvider>
       </TaskState>
     </>
