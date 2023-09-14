@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import TaskContext from "./taskContext";
 
 const TaskState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "https://kanbanboard-api.onrender.com"
   const initialTask = []
 
   const [tasks, setTasks] = useState(initialTask);
